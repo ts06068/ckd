@@ -1,0 +1,49 @@
+# Local environments
+.venv/
+venv/
+env/
+
+# Codex/local assistant state
+.codex
+.codex/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local plotting/config caches
+.matplotlib/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Generated model/output artifacts
+models/
+checkpoints/
+logs/
+shap_plots/
+dca_plots/
+*_output/
+*_output*/
+predictions_cache.joblib
+recovery_full.pkl
+*.joblib
+*.pkl
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
